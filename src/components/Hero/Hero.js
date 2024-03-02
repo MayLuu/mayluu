@@ -8,6 +8,7 @@ import {
 import Button from "../../styles/GlobalComponents/Button";
 import { LeftSection } from "./HeroStyles";
 import { FiverUrl, ResumeUrl, UpworkUrl } from "../../constants/constants";
+import { IoMdCodeDownload, IoMdDownload } from "react-icons/io";
 
 const handleClickFiverr = () => {
   window.open(FiverUrl, "_blank");
@@ -25,22 +26,22 @@ const Hero = (props) => (
       <LeftSection>
         <SectionTitle main center>
           Hello! <br />
-          I'm Tanveer Khan
+          I'm My Luu
         </SectionTitle>
         <SectionText>
-          A Full Stack Backend Developer specializing in scalable server-side
-          applications with Node.js. Proficient in Next.js and React.js for
+          A Frontend Developer specializing in scalable server-side
+          applications with React.js and its libraries. Proficient in Next.js and React.js for
           seamless web development.
         </SectionText>
-        <div style={{ display: "flex", flexWrap: "wrap", gap: "10px" ,margin: "0 0 80px" }}>
-          <Button alt="upwork" onClick={handleClickUpwork}>
+        <div style={{ display: "flex", flexWrap: "wrap", gap: "10px", margin: "0 0 80px", }}>
+          {/* <Button alt="upwork" onClick={handleClickUpwork}>
             Upwork
           </Button>
           <Button alt="fiverr" onClick={handleClickFiverr}>
             Fiverr
-          </Button>
+          </Button> */}
           <Button alt="resume" onClick={handleClickResume}>
-            Resume
+            My Resume  <IoMdDownload style={{ paddingLeft: "2px" }} />
           </Button>
         </div>
       </LeftSection>

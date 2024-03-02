@@ -51,9 +51,9 @@ const Header = () => (
       <SocialIcons href={LinkedInUrl} target="_blank">
         <AiFillLinkedin size="3rem" />
       </SocialIcons>
-      <SocialIcons href={FacebookUrl} target="_blank">
+      {/* <SocialIcons href={FacebookUrl} target="_blank">
         <AiFillFacebook size="3rem" />
-      </SocialIcons>
+      </SocialIcons> */}
     </Div3>
   </Container>
 );
