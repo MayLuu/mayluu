@@ -9,10 +9,10 @@ import { Box, Boxes, BoxNum, BoxText } from "./AcomplishmentsStyles";
 import axios from "axios";
 
 const defaultData = [
-  { number: 20, text: "Open Source Projects" },
-  { number: 100, text: "Students" },
-  { number: 45, text: "Github Followers" },
-  { number: 46, text: "Github Stars" },
+  { info: "70%", text: "FPT University scholarship" },
+  { info: "795", text: "TOEIC 795" },
+  { info: "3rd prize", text: "FPT CSS battle" },
+  { info: "Awards", text: "Creative Awaeds at FPT Hackathon" },
 ];
 
 const Acomplishments = () => {
@@ -25,7 +25,7 @@ const Acomplishments = () => {
       if (userData) {
         const newFollowers = data.map((obj) => {
           if (obj.text === "Github Followers") {
-            return { ...obj, number: userData.followers };
+            return { ...obj, text: userData.followers };
           }
           return obj;
         });
@@ -40,7 +40,7 @@ const Acomplishments = () => {
       <Boxes>
         {data.map((card, index) => (
           <Box key={index}>
-            <BoxNum>{`${card.number}+`}</BoxNum>
+            <BoxNum>{`${card.info}`}</BoxNum>
             <BoxText>{card.text}</BoxText>
           </Box>
         ))}

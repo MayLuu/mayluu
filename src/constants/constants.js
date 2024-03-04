@@ -2,7 +2,7 @@ export const projects = [
   {
     title: "Audiory",
     description:
-      "Audiory has democratized storytelling for a new generation of diverse Gen Z writers and their fan. Application has supported on both web and app.",
+      "Democratizing storytelling for a new generation of diverse Gen Z writers and their fans.",
     image:
       "https://firebasestorage.googleapis.com/v0/b/audioryauth.appspot.com/o/thumbnail%20(1).jpg?alt=media&token=a1cdce02-da48-4fd5-ad2b-602555f63fc3",
     // image: "/images/jp01.jpg",
@@ -15,12 +15,11 @@ export const projects = [
   },
   {
     title: "Horizon Tek",
-    description:
-      "Scribble Library. Showcase your work on our exclusive Scribble Library for all to see! Once you submit your information, we will post your submitted book cover and information in the Scribble Library Directory to be available for all users to see, read, rate and review!",
+    description: "Handling your printing processes from distance and allow users to store 3D files in folder tree",
     image:
       "https://firebasestorage.googleapis.com/v0/b/audioryauth.appspot.com/o/thumbnail%20(2).jpg?alt=media&token=69f71f40-e628-499f-8ce1-3e9e732fe453",
     // image: "/images/jp01.jpg",
-    tags: ["Angular", "ThreeJS", "Golang", "Socket.io", "MongoDB"],
+    tags: ["Angular", "ThreeJS", "Golang"],
 
     source:
       "https://play.google.com/store/apps/details?id=com.scribble.thesuitch",
@@ -34,7 +33,7 @@ export const projects = [
     image:
       "https://firebasestorage.googleapis.com/v0/b/audioryauth.appspot.com/o/file%20cover%20-%202.png?alt=media&token=c0f3d374-e762-4330-938a-e438ae1f0f45",
     // image: "/images/project 001.png",
-    tags: ["Next.js", "Microservices", "Node.js", "Socket.io", "MongoDB"],
+    tags: ["ReactJS", "CSS", "EmailJS"],
 
     source: "https://mercedesvn.net/",
     visit: null,
@@ -195,24 +194,17 @@ export const projects = [
 ];
 
 export const TimeLineData = [
-  { year: 2017, text: "Passed my Matriculation in Computer Science" },
-  { year: 2019, text: "Passed my Intermediate in Pre-Engineering" },
-  { year: 2020, text: "Enrolled in High school for a BS in Computer Science" },
-  {
-    year: 2021,
-    text: "Started as a freelance and onsite developer, embarking on my industry journey",
-  },
+  { year: 2022, text: "Worked as front-end developer for Cirtech Institue for 1 year" },
+  { year: 2023, text: "Graduated from FPT University and get Software Engineering Bachelor degree" },
+  { year: 2024, text: "Started my industry journey" },
+
 ];
 
-export const FiverUrl = "https://www.fiverr.com/tanv33r_khan";
 export const UpworkUrl =
   "https://www.upwork.com/freelancers/~0128ca58b87e6d95b6";
 export const ResumeUrl = "https://flowcv.com/resume/8mh3i008wq";
 export const GithubUrl = "https://github.com/MayLuu";
 export const LinkedInUrl =
   "https://www.linkedin.com/in/my-luu";
-export const FacebookUrl =
-  "https://www.facebook.com/profile.php?id=100007686159316";
-export const MobileNumber = "0334-2177092";
-export const BusinessEmail = "typecodewithme@gmail.com";
-export const PersonalEmail = "tanveer.khan2692000@gmail.com";
+export const MobileNumber = "076-402-1251";
+export const PersonalEmail = "myluu4444@gmail.com";

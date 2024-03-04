@@ -46,7 +46,7 @@ const Timeline = () => {
       const index = Math.round(
         (carouselRef.current.scrollLeft /
           (carouselRef.current.scrollWidth * 0.7)) *
-          TimeLineData.length
+        TimeLineData.length
       );
 
       setActiveItem(index);
@@ -67,9 +67,9 @@ const Timeline = () => {
     <Section id="about">
       <SectionTitle>About Me</SectionTitle>
       <SectionText>
-        Experienced Full Stack Backend Developer with over 2 years of
-        experience. Passionate about delivering high-quality web solutions with
-        a strong foundation in Node.js. Committed to writing clean code,
+        Experienced Front-end Developer with 1 year of
+        experience. Passionate about delivering high-quality web application with
+        a strong foundation in React.js. Committed to writing clean code,
         providing exceptional user experiences, and staying updated with
         industry trends for innovative solutions.
       </SectionText>
