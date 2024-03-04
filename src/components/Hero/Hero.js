@@ -29,9 +29,7 @@ const Hero = (props) => (
           I'm My Luu
         </SectionTitle>
         <SectionText>
-          A Frontend Developer specializing in scalable server-side
-          applications with React.js and its libraries. Proficient in Next.js and React.js for
-          seamless web development.
+          A front-end Web and mobile developer specializing in ReactJS. Skilled in creating intuitive, user-friendly, responsive websites and applications.
         </SectionText>
         <div style={{ display: "flex", flexWrap: "wrap", gap: "10px", margin: "0 0 80px", }}>
           {/* <Button alt="upwork" onClick={handleClickUpwork}>
