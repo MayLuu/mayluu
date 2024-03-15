@@ -22,7 +22,7 @@ export const projects = [
     tags: ["Angular", "ThreeJS", "Golang"],
 
     source:
-      "https://play.google.com/store/apps/details?id=com.scribble.thesuitch",
+      "https://cloud.ht3dprint.com",
     visit: null,
     id: 32,
   },
