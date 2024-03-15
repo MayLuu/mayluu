@@ -11,8 +11,8 @@ import axios from "axios";
 const defaultData = [
   { info: "70%", text: "FPT University scholarship" },
   { info: "795", text: "TOEIC 795" },
-  { info: "3rd prize", text: "FPT CSS battle" },
-  { info: "Awards", text: "Creative Awaeds at FPT Hackathon" },
+  { info: "3rd prize", text: "FPT's CSS battle" },
+  { info: "Awards", text: "Creative Awards at FPT Hackathon" },
 ];
 
 const Acomplishments = () => {
